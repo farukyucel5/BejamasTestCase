@@ -1,0 +1,16 @@
+pages\QualitydemyPage.class
+stepdefinitions\WebUniversityStepdefinitions.class
+pages\EditorPage.class
+stepdefinitions\QualitydemyStepdefinitions.class
+pages\HerokuappPage.class
+pages\AmazonPage.class
+stepdefinitions\Hooks.class
+stepdefinitions\AmazonStepdefinitions.class
+runners\Runner.class
+stepdefinitions\HerokuappStepdefinitions.class
+utilities\Driver.class
+stepdefinitions\EditorStepdefinitions.class
+runners\ParalelRunner1.class
+runners\ParalelRunner2.class
+pages\WebUniversityPage.class
+utilities\ConfigReader.class

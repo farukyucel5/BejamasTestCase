@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="20.461">
+    <testcase classname="Testing some features of the website called Bejamas" name="featured products" time="20.042">
+        <system-out>
+            <![CDATA[Given navigate to the website...............................................passed
+And verify photo of the day.................................................passed
+Then verify the product list contains six items.............................passed
+And add to cart button should come out after hovering over..................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
