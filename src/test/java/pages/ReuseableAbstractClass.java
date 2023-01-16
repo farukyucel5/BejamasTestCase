@@ -44,7 +44,7 @@ public abstract class  ReuseableAbstractClass {
 
     }
     public void assertion(List<WebElement> actual,int expected){
-        Assert.assertEquals(actual.size(),expected);
+        Assert.assertEquals(expected,actual.size());
 
     }
     public void hoveringFunction(List<WebElement> webElementList,List<WebElement> addToCartList){

@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.298">
-    <testcase classname="Testing some features of the website called Bejamas" name="featured products" time="9.918">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="21.573">
+    <testcase classname="Testing some features of the website called Bejamas" name="featured products" time="10.039">
         <system-out>
             <![CDATA[Given navigate to the website...............................................passed
 And verify photo of the day.................................................passed
-Then verify the product list contains six items.............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Testing some features of the website called Bejamas" name="checking the number of items" time="5.15">
+        <failure message="expected:&lt;6&gt; but was:&lt;4&gt;" type="java.lang.AssertionError">
+            <![CDATA[Given navigate to the website...............................................passed
+Then verify the product list contains six items.............................failed
+
+StackTrace:
+java.lang.AssertionError: expected:<6> but was:<4>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at pages.ReuseableAbstractClass.assertion(ReuseableAbstractClass.java:47)
+	at stepdefinitions.Steps.verifyTheProductListContainsSixItems(Steps.java:26)
+	at ✽.verify the product list contains six items(file:///C:/Asoftware/BejamasTestCase/src/test/resources/features/bejamas.feature:10)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Testing some features of the website called Bejamas" name="checking whether or not add to cart button appears during hovering over the image" time="5.916">
+        <system-out>
+            <![CDATA[Given navigate to the website...............................................passed
 And add to cart button should come out after hovering over..................passed
 ]]>
         </system-out>

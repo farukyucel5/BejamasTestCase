@@ -23,7 +23,7 @@ public class Steps {
 
     @Then("verify the product list contains six items")
     public void verifyTheProductListContainsSixItems() {
-        bejamasPage.assertion(bejamasPage.webElementList,4);
+        bejamasPage.assertion(bejamasPage.webElementList,6);
     }
 
 
