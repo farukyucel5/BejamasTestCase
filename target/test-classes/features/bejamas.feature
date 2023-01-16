@@ -4,7 +4,7 @@ Feature:  Testing some features of the website called Bejamas
   Background: common parts of the scenarios
     Given navigate to the website
 
-  Scenario: featured products
+  Scenario:The featured product
     And verify photo of the day
   Scenario: checking the number of items
     Then verify the product list contains six items

@@ -51,7 +51,7 @@ public abstract class  ReuseableAbstractClass {
         List<WebElement> addToCart=addToCartList.subList(1,addToCartList.size());
         //I took the sublist of the addToCartList starting index 1 because this list have 5 items and first of the items belong
         //to the featured product at the very top of the page
-        Actions actions=new Actions(Driver.getDriver());
+        Actions actions=new Actions(driver);
         webElementList.forEach(n1->{
             int count=0;
             actions.moveToElement(n1).perform();
