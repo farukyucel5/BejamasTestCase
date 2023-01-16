@@ -9,5 +9,3 @@ Feature:  Testing some features of the website called Bejamas
     Then verify the product list contains six items
     And add to cart button should come out after hovering over
 
-
-
